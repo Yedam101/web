@@ -1,1 +1,3 @@
-# PLEASE GO TO [All About CS](https://github.com/Yedam101/All_About_CS#readme)
+##  First step in HTML
+
+- [Alphago](https://github.com/Yedam101/All_About_CS#readme)
