@@ -5,3 +5,4 @@
     - [alphago_1.html](https://github.com/Yedam101/web/blob/master/html_css_alphago/alphago_1.html)    
     - [alphago_2.html](https://github.com/Yedam101/web/blob/master/html_css_alphago/alphago_2.html)
     - [alphago_3.html](https://github.com/Yedam101/web/blob/master/html_css_alphago/alphago_3.html) 
+    - [alphgo_style.css](https://github.com/Yedam101/web/blob/master/html_css_alphago/alphgo_style.css)
