@@ -3,17 +3,69 @@
 <head>
   <title>WEB1 - html_AlphaGo</title>
   <meta charset="utf-8">
+  <style>
+  body{
+    margin:0;
+  }
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 3px solid gray;
+    margin:0;
+    padding: 30px;
+  }
+  ol{
+    padding-left: 90px;
+    padding-right: 2px;
+    padding-top: 50px;
+    border-right: 3px solid gray;
+    width:350px;
+    margin: 0;
+    line-height:50px;
+  }
+  li {
+    font-size: 25px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 550px 1fr;
+  }
+  p {
+    line-height:40px;
+    padding-right: 90px;
+    font-size: 18px
+  }
+  </style>
 </head>
 <body>
-  <h1><a href="index.html">AlphaGo</a></h1>
-  <ol>
-    <li><a href="1.html">About AlphaGo</a></li>
-    <li><a href="2.html">Match against Lee Sedol</a></li>
-    <li><a href="3.html">Algorithm</a></li>
-  </ol>
-  <br>
-  <h2>Algorithm</h2>
-  <p>&nbsp;&nbsp;As of 2016, AlphaGo's algorithm uses a combination of machine learning and tree search techniques, combined with extensive training, both from human and computer play. It uses Monte Carlo tree search, guided by a "value network" and a "policy network," both implemented using deep neural network technology. A limited amount of game-specific feature detection pre-processing (for example, to highlight whether a move matches a nakade pattern) is applied to the input before it is sent to the neural networks. The networks are convolutional neural networks with 12 layers, trained by reinforcement learning.</p>
-  <p>&nbsp;&nbsp;The system's neural networks were initially bootstrapped from human gameplay expertise. AlphaGo was initially trained to mimic human play by attempting to match the moves of expert players from recorded historical games, using a database of around 30 million moves. Once it had reached a certain degree of proficiency, it was trained further by being set to play large numbers of games against other instances of itself, using reinforcement learning to improve its play. To avoid "disrespectfully" wasting its opponent's time, the program is specifically programmed to resign if its assessment of win probability falls beneath a certain threshold; for the match against Lee, the resignation threshold was set to 20%.</p>
+  <h1><a href="alphago_index.html"><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Alphago_logo_Reversed.svg/1024px-Alphago_logo_Reversed.svg.png' height="100.6" width="400"></a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="alphago_1.html">About AlphaGo</a></li>
+      <li><a href="alphago_2.html">Match against Lee Sedol</a></li>
+      <li><a href="alphago_3.html">Algorithm</a></li>
+    </ol>
+    <div>
+      <br>
+      <h2>Algorithm</h2>
+      <p>
+        &nbsp;&nbsp;As of 2016, AlphaGo's algorithm uses a combination of machine learning and tree search techniques, combined with extensive training,
+        both from human and computer play. It uses Monte Carlo tree search, guided by a "value network" and a "policy network," both implemented using deep neural
+        network technology. A limited amount of game-specific feature detection pre-processing (for example, to highlight whether a move matches a nakade pattern) is applied
+        to the input before it is sent to the neural networks. The networks are convolutional neural networks with 12 layers, trained by reinforcement learning.
+      </p>
+      <p>
+        &nbsp;&nbsp;The system's neural networks were initially bootstrapped from human gameplay expertise. AlphaGo was initially trained to mimic human play by
+        attempting to match the moves of expert players from recorded historical games, using a database of around 30 million moves. Once it had reached a certain
+        degree of proficiency, it was trained further by being set to play large numbers of games against other instances of itself, using reinforcement learning to
+        improve its play. To avoid "disrespectfully" wasting its opponent's time, the program is specifically programmed to resign if its assessment of win probability
+        falls beneath a certain threshold; for the match against Lee, the resignation threshold was set to 20%.
+      </p>
+    </div>
+  </div>
 </body>
 </html>
