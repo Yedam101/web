@@ -18,27 +18,55 @@
     margin:0;
     padding: 30px;
   }
-  ol{
+  #grid ol{
     padding-left: 90px;
     padding-right: 2px;
     padding-top: 50px;
     border-right: 3px solid gray;
     width:350px;
     margin: 0;
-    line-height:50px;
+    line-height:60px;
   }
-  li {
+  #grid li {
     font-size: 25px;
   }
   #grid{
     display: grid;
     grid-template-columns: 550px 1fr;
   }
-  p {
-    line-height:40px;
+  #grid p {
+    line-height:37px;
     padding-right: 90px;
     font-size: 18px
   }
+  @media(max-width:800px){
+    #grid{
+      display: block;
+    }
+    #grid ol{
+      padding-right: none;
+      border-right: none;
+      padding-left: 50px;
+      padding-right: 2px;
+      padding-top: 25px;
+    }
+    #grid p {
+      padding-left: 30px;
+      padding-right: 30px;
+      line-height:30px;
+      padding-right: 90px;
+      font-size: 17px
+      }
+    h2 {
+      padding: 10px;
+      padding-left: 30px;
+      padding-top: 0;
+      margin: 0;
+      }
+    #grid li {
+      font-size: 18px;
+      }
+    }
   </style>
 </head>
 <body>

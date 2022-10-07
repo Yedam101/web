@@ -19,7 +19,6 @@
       padding: 30px;
     }
     ol{
-      border-right: 3px solid gray;
       width:350px;
       margin: 0;
       padding: 60px;
@@ -28,6 +27,16 @@
     li {
       font-size: 25px;
     }
+    @media(max-width:800px){
+      ol{
+        display: block;
+        border-right: none;
+        padding: 60px;
+        padding-left: 100px;
+      }
+      h2{
+        padding-left: 80px;
+      }
   </style>
 </head>
 <body>
@@ -37,4 +46,3 @@
     <li><a href="alphago_2.html">Match against Lee Sedol</a></li>
     <li><a href="alphago_3.html">Algorithm</a></li>
   </ol>
-  <h2><a href="https://en.wikipedia.org/wiki/AlphaGo" title="wikipedia_AlphaGo">AlphaGo in wiki</a></h2>
