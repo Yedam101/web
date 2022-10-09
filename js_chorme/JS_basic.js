@@ -93,3 +93,36 @@ const playeris = {
 playeris['Greeting']("You");
 playeris.Greeting("You");
 
+// recap
+
+const calculator = {
+    add: function(a, b){
+        console.log(a+b)
+    },
+    subtract: function(a, b){
+        console.log(a-b)
+    },
+    multiply: function(a, b){
+        console.log(a*b)
+    },
+    powerof: function(a, b){
+        console.log(a**b)
+    }
+};
+
+calculator.add(5, 2);
+calculator.subtract(5, 2);
+calculator.multiply(5, 2);
+calculator.powerof(5, 2);
+
+// returns
+
+function krAge(age){
+    return age + 1
+};
+
+console.log("lectureReturns")
+krAge(25);
+console.log(krAge(25));
+console.log(krAge(10)+10)
+
