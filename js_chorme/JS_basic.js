@@ -28,3 +28,12 @@ daysOfWeek.push('sun');
 console.log(daysOfWeek);
 
 // object
+
+const player = {
+    name: "nico",
+    points: 10,
+    handsome: true,
+};
+
+console.log(player);
+console.log(player.name);
