@@ -10,6 +10,7 @@
 - [alphago_style.css](https://github.com/Yedam101/web/blob/master/html_css_alphago/alphago_style.css)
 
 </details>
+<br>
 
 ## JavaScript
 
