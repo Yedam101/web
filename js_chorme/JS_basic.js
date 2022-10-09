@@ -37,3 +37,34 @@ const player = {
 
 console.log(player);
 console.log(player.name);
+console.log(player['name']);
+
+player['name'] = 'Yedam';
+console.log(player);
+
+player['lastName'] = 'Kim';
+console.log(player);
+
+player['points'] = player['points'] + 10;
+console.log(player);
+
+// function
+
+function sayHello() {
+    console.log("Hello!")
+};
+
+sayHello();
+
+function HelloFrom(name){
+    console.log("Hello my name is " + name)
+};
+
+HelloFrom('Yedam');
+
+function Introduce(name, age){
+    console.log("Hello my name is " + name +
+    " and I'm " + age + " years old.")
+};
+
+Introduce("Yedam", 25);
