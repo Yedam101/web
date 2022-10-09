@@ -138,16 +138,29 @@ console.log(typeof(intAge));
 
 const Age = parseInt(prompt("How old are you?"));
 console.log(isNaN(Age));
-*/
 
 const age = prompt("How old are you?");
 console.log(isNaN(age));
 
 if(isNaN(age)){
-    console.log("Please write a number.")
+    console.log("Please write a number.");
+} else if (age < 18) {
+    console.log("You are too yong to drink.");
 } else {
-    console.log("Thank you for writing your age.")
-};
+    console.log("Welcome, you can drink.");
+} 
+*/
+
+const age = prompt("How old are you?");
+console.log(isNaN(age));
+
+if(isNaN(age) || age < 0){
+    console.log("Please write a real positive number.");
+} else if (age >= 18 && age <=80) {
+    console.log("Welcome, you can drink.");
+} else if (age < 18 || age > 80) {
+    console.log("You can't drink.");
+} 
 
 
 
