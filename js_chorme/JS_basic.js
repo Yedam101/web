@@ -68,3 +68,28 @@ function Introduce(name, age){
 };
 
 Introduce("Yedam", 25);
+
+function plus(a, b){
+    console.log(a + b)
+};
+
+plus(3, 8);
+
+function divide(a, b){
+    console.log(a / b)
+};
+
+divide(124, 4);
+
+// object with function
+
+const playeris = {
+    name: "Yedam",
+    age: 25,
+    Greeting: function (to){
+        console.log("Hello, " + to + '!');
+    }
+}
+playeris['Greeting']("You");
+playeris.Greeting("You");
+
