@@ -126,3 +126,28 @@ krAge(25);
 console.log(krAge(25));
 console.log(krAge(10)+10)
 
+// conditions
+
+/* const age = prompt("How old are YOU?");
+console.log(age);
+console.log(typeof(age));
+
+const intAge = parseInt(prompt("How old are you?"));
+console.log(intAge);
+console.log(typeof(intAge));
+
+const Age = parseInt(prompt("How old are you?"));
+console.log(isNaN(Age));
+*/
+
+const age = prompt("How old are you?");
+console.log(isNaN(age));
+
+if(isNaN(age)){
+    console.log("Please write a number.")
+} else {
+    console.log("Thank you for writing your age.")
+};
+
+
+
