@@ -25,5 +25,5 @@
 
 - [Build a Website with Flask](https://github.com/Yedam101/web/tree/master/flask)
     - [Job Scraping with Selenium](https://github.com/Yedam101/web/blob/master/flask/selenium.ipynb)
-    - [Job Scraping Result.csv](https://github.com/Yedam101/web/blob/master/flask/Python_list.csv)
-    - 
+    - [Job Scraping Result.csv](https://github.com/Yedam101/web/blob/master/flask/Python_list2.csv)
+    - [Flask](https://github.com/Yedam101/web/blob/master/flask/flask.ipynb)
