@@ -19,3 +19,11 @@
     - [JS_basic](https://github.com/Yedam101/web/blob/master/js_chorme/JS_basic.js)
     - [index_basic](https://github.com/Yedam101/web/blob/master/js_chorme/index_basic.html)
     - [style_basic](https://github.com/Yedam101/web/blob/master/js_chorme/style_basic.css)
+
+-------------
+## Flask with Selenium
+
+- [Build a Website with Flask](https://github.com/Yedam101/web/tree/master/flask)
+    - [Job Scraping with Selenium](https://github.com/Yedam101/web/blob/master/flask/selenium.ipynb)
+    - [Job Scraping Result.csv](https://github.com/Yedam101/web/blob/master/flask/Python_list.csv)
+    - 
